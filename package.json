@@ -1,5 +1,5 @@
 {
-  "name": "wepay-backend",
+  "name": "FairFund-backend",
   "version": "1.0.0",
   "description": "A group expense tracker backend built with Node.js, Express, and MongoDB.",
   "main": "server.js",
@@ -19,3 +19,4 @@
     "mongoose": "^7.6.1"
   }
 }
+
