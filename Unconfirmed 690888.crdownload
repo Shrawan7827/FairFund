@@ -1,4 +1,4 @@
-// WePay - Group Expense Tracker Backend 
+// FairFund - Group Expense Tracker Backend 
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -141,3 +141,4 @@ app.get('/groups/:id/balances', auth, async (req, res) => {
 // Launch Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`WePay backend running on port ${PORT}`));
+
